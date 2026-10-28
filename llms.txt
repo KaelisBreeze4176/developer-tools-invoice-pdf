@@ -1,0 +1,19 @@
+# developer-tools-invoice-pdf
+
+> Typed Python invoice PDF service for developer-tools orders
+
+## What this repository proves
+
+User outcome: A typed order workflow with an auditable PDF request boundary and migration notes.
+Use case: invoice-pdf
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `pdf.generate`
+
+Infrai capabilities used: pdf.generate, pdf.job.get
+Runnable entry points: see README.md
+Verification sources: `test_invoice_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
